@@ -12,10 +12,23 @@ This project demonstrates how to automate software testing using Python. The mai
 ## Project Structure
 
 - `test_automation.py`: The main script where test cases and automation logic are written. You can add your own tests or modify existing ones to suit your needs.
+- `requirements.txt`: Lists the Python dependencies required to run the automation.
 
 ## Requirements
 
 - Python 3.x (Make sure Python is installed on your system)
+
+## Installation
+
+1. Open a terminal or command prompt in the project directory.
+2. Install the required dependencies using pip:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. (Optional) If you haven't installed Playwright browsers before, run:
+   ```bash
+   playwright install
+   ```
 
 ## How to Run the Automation
 
